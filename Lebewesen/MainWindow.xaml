@@ -1,0 +1,15 @@
+﻿<Window x:Class="Lebewesen.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lebewesen"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="243.976" Width="503.163">
+    <Grid>
+        <Button x:Name="btnErstelleKatze" Content="Erstelle Katze" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="262" Height="93" FontSize="24" Click="btnErstelleKatze_Click"/>
+        <Button x:Name="BtnErstelleFIsch" Content="Erstelle Fisch" HorizontalAlignment="Left" Margin="10,108,0,0" VerticalAlignment="Top" Width="262" Height="93" FontSize="24" Click="BtnErstelleFIsch_Click"/>
+        <ListBox x:Name="LstBox" HorizontalAlignment="Left" Height="191" Margin="289,10,0,0" VerticalAlignment="Top" Width="195"/>
+
+    </Grid>
+</Window>
